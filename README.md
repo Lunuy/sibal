@@ -1,11 +1,11 @@
 # Sibal
 Simple messaging protocol (for order-guaranteed protocol). This library provides [Stream API](https://developer.mozilla.org/en-US/docs/Web/API/Streams_API)'s [TransformStream](https://developer.mozilla.org/en-US/docs/Web/API/TransformStream) to encode and decode.
 
-# Examples
+## Examples
 - [HTTP/2 Chat](examples/http2-chat)
 - [TCP Chat](examples/tcp-chat)
 
-# Usage
+## Usage
 ```ts
 import { DecodeStream, EncodeStream } from 'sibal';
 
@@ -47,7 +47,7 @@ somewhere.readable.pipeTo(decodeStream.writable);
 EncodeStream, DecodeStream is [TransformStream](https://developer.mozilla.org/en-US/docs/Web/API/TransformStream).
 
 
-# Framing protocol
+## Framing protocol
 ```
  0                   1                   2                   3
  0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1
