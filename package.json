@@ -1,0 +1,29 @@
+{
+  "name": "sibal",
+  "version": "1.0.0",
+  "description": "Simple messaging protocol (for order-guaranteed protocol)",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lunuy/sibal.git"
+  },
+  "keywords": [
+    "messaging",
+    "protocol",
+    "tcp",
+    "order",
+    "stream"
+  ],
+  "author": "Lunuy",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/Lunuy/sibal/issues"
+  },
+  "homepage": "https://github.com/Lunuy/sibal#readme",
+  "devDependencies": {
+    "typescript": "^4.8.2"
+  }
+}
