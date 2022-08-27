@@ -1,6 +1,11 @@
 # Sibal
 Simple messaging protocol (for order-guaranteed protocol). This library provides [Stream API](https://developer.mozilla.org/en-US/docs/Web/API/Streams_API)'s [TransformStream](https://developer.mozilla.org/en-US/docs/Web/API/TransformStream) to encode and decode.
 
+## Install
+```bash
+npm i sibal
+```
+
 ## Examples
 - [HTTP/2 Chat](examples/http2-chat)
 - [TCP Chat](examples/tcp-chat)
