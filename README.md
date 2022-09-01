@@ -7,7 +7,7 @@ npm i sibal
 ```
 
 ## Examples
-- [HTTP/2 Chat](examples/http2-chat)
+- [Fetch Upload Streaming HTTP/2 Chat](https://github.com/Lunuy/fetch-upload-streaming-chat-sibal)
 - [TCP Chat](examples/tcp-chat)
 
 ## Usage
