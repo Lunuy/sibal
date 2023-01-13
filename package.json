@@ -1,6 +1,6 @@
 {
   "name": "sibal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple messaging protocol (for order-guaranteed protocol)",
   "main": "./dist/index.js",
   "scripts": {
